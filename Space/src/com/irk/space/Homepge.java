@@ -1,7 +1,10 @@
 package com.irk.space;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.Button;
 
 public class Homepge extends Activity{
@@ -15,6 +18,26 @@ public class Homepge extends Activity{
 		
 		weight = (Button)findViewById(R.id.btnweight);
 		details = (Button)findViewById(R.id.btndetails);
+		
+		weight.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent openStrtngPoint = new Intent("android.intent.action.WEIGHTPGE");
+				startActivity(openStrtngPoint);
+			}
+		});
+		
+		details.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent openStrtngPoint = new Intent("android.intent.action.DETAILS");
+				startActivity(openStrtngPoint);
+			}
+		});
 	}
 
 }

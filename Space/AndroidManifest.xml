@@ -32,6 +32,26 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        
+        <activity
+            android:name=".Weightpge"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.WEIGHTPGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Details"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.DETAILS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
