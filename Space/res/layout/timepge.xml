@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backpges"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TabHost
+                android:id="@+id/tabhost"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <TabWidget
+                        android:id="@android:id/tabs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+                    </TabWidget>
+
+                    <FrameLayout
+                        android:id="@android:id/tabcontent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <LinearLayout
+                            android:id="@+id/Speed"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical" >
+
+                            <EditText
+                                android:id="@+id/tmetxtspeed"
+                                android:layout_width="278dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginTop="20dp"
+                                android:ems="10"
+                                android:hint="Enter Your Speed(Km per h)"
+                                android:inputType="number" >
+
+                                <requestFocus />
+                            </EditText>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/Planet"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/textViewtimeplanet"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="30dp"
+                                android:text="Select your Planet want to go"
+                                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="30dp" >
+
+                                <Button
+                                    android:id="@+id/tmebtnsun"
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:background="@drawable/sun"
+                                    android:text="SUN" />
+
+                                <Button
+                                    android:id="@+id/tmebtnmercury"
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:background="@drawable/mercury"
+                                    android:text="MERCURY" />
+
+                                <Button
+                                    android:id="@+id/tmebtnvenus"
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:background="@drawable/veenus"
+                                    android:text="VENUS" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp" >
+
+                                <Button
+                                    android:id="@+id/tmebtnmoon"
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:background="@drawable/moon"
+                                    android:text="MOON" />
+
+                                <Button
+                                    android:id="@+id/tmebtnmars"
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:background="@drawable/mars"
+                                    android:text="MARS" />
+
+                                <Button
+                                    android:id="@+id/tmebtnjupitor"
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:background="@drawable/jupiter"
+                                    android:text="JUPITOR" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="20dp" >
+
+                                <Button
+                                    android:id="@+id/tmebtnsaturn"
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:background="@drawable/saturn"
+                                    android:text="SATURN" />
+
+                                <Button
+                                    android:id="@+id/tmebtnuranus"
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:background="@drawable/uranus"
+                                    android:text="URANUS" />
+
+                                <Button
+                                    android:id="@+id/tmebtnneptune"
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:background="@drawable/neptune"
+                                    android:text="NEPTUNE" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </FrameLayout>
+                </LinearLayout>
+            </TabHost>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
