@@ -38,29 +38,41 @@ public final class R {
     }
     public static final class id {
         public static final int Planet=0x7f080007;
-        public static final int Weight=0x7f080005;
-        public static final int action_settings=0x7f080012;
-        public static final int btndetails=0x7f080001;
-        public static final int btnjupitor=0x7f08000e;
-        public static final int btnmars=0x7f08000d;
-        public static final int btnmercury=0x7f08000a;
-        public static final int btnmoon=0x7f08000c;
-        public static final int btnneptune=0x7f080011;
-        public static final int btnsaturn=0x7f08000f;
-        public static final int btnsun=0x7f080009;
-        public static final int btnuranus=0x7f080010;
-        public static final int btnvenus=0x7f08000b;
+        public static final int Speed=0x7f080005;
+        public static final int Weight=0x7f080012;
+        public static final int action_settings=0x7f08001e;
+        public static final int btnjupitor=0x7f08001a;
+        public static final int btnmars=0x7f080019;
+        public static final int btnmercury=0x7f080016;
+        public static final int btnmoon=0x7f080018;
+        public static final int btnneptune=0x7f08001d;
+        public static final int btnsaturn=0x7f08001b;
+        public static final int btnsun=0x7f080015;
+        public static final int btntime=0x7f080001;
+        public static final int btnuranus=0x7f08001c;
+        public static final int btnvenus=0x7f080017;
         public static final int btnweight=0x7f080000;
         public static final int progressBar1=0x7f080002;
         public static final int scrollView1=0x7f080003;
         public static final int tabhost=0x7f080004;
-        public static final int textViewplanet=0x7f080008;
-        public static final int txtweight=0x7f080006;
+        public static final int textViewplanet=0x7f080014;
+        public static final int textViewtimeplanet=0x7f080008;
+        public static final int tmebtnjupitor=0x7f08000e;
+        public static final int tmebtnmars=0x7f08000d;
+        public static final int tmebtnmercury=0x7f08000a;
+        public static final int tmebtnmoon=0x7f08000c;
+        public static final int tmebtnneptune=0x7f080011;
+        public static final int tmebtnsaturn=0x7f08000f;
+        public static final int tmebtnsun=0x7f080009;
+        public static final int tmebtnuranus=0x7f080010;
+        public static final int tmebtnvenus=0x7f08000b;
+        public static final int tmetxtspeed=0x7f080006;
+        public static final int txtweight=0x7f080013;
     }
     public static final class layout {
-        public static final int details=0x7f030000;
-        public static final int homepge=0x7f030001;
-        public static final int main=0x7f030002;
+        public static final int homepge=0x7f030000;
+        public static final int main=0x7f030001;
+        public static final int timepge=0x7f030002;
         public static final int weightpge=0x7f030003;
     }
     public static final class menu {

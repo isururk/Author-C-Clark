@@ -14,11 +14,11 @@
         android:text="Weight" />
 
     <Button
-        android:id="@+id/btndetails"
+        android:id="@+id/btntime"
         android:layout_width="275dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
-        android:text="Details" />
+        android:text="Time" />
 
 </LinearLayout>

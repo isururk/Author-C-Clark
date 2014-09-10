@@ -86,7 +86,7 @@ public class Weightpge extends Activity {
 				data = Double.parseDouble(weight.getText().toString())*3;
 				AlertDialog.Builder popup = new AlertDialog.Builder(context);
 				popup.setTitle("Your Weight");
-				popup.setMessage("In the Sun your weight = " + data + "Kg");
+				popup.setMessage("In the Mercury your weight = " + data + "Kg");
 				popup.setCancelable(false).setPositiveButton("OK",
 						new DialogInterface.OnClickListener() {
 							public void onClick(DialogInterface dialog, int id) {
@@ -110,7 +110,7 @@ public class Weightpge extends Activity {
 				data = Double.parseDouble(weight.getText().toString())*4.5;
 				AlertDialog.Builder popup = new AlertDialog.Builder(context);
 				popup.setTitle("Your Weight");
-				popup.setMessage("In the Sun your weight = " + data + "Kg");
+				popup.setMessage("In the Venus your weight = " + data + "Kg");
 				popup.setCancelable(false).setPositiveButton("OK",
 						new DialogInterface.OnClickListener() {
 							public void onClick(DialogInterface dialog, int id) {
@@ -134,7 +134,7 @@ public class Weightpge extends Activity {
 				data = Double.parseDouble(weight.getText().toString())*5;
 				AlertDialog.Builder popup = new AlertDialog.Builder(context);
 				popup.setTitle("Your Weight");
-				popup.setMessage("In the Sun your weight = " + data + "Kg");
+				popup.setMessage("In the Moon your weight = " + data + "Kg");
 				popup.setCancelable(false).setPositiveButton("OK",
 						new DialogInterface.OnClickListener() {
 							public void onClick(DialogInterface dialog, int id) {
@@ -158,7 +158,7 @@ public class Weightpge extends Activity {
 				data = Double.parseDouble(weight.getText().toString())*7;
 				AlertDialog.Builder popup = new AlertDialog.Builder(context);
 				popup.setTitle("Your Weight");
-				popup.setMessage("In the Sun your weight = " + data + "Kg");
+				popup.setMessage("In the Mars your weight = " + data + "Kg");
 				popup.setCancelable(false).setPositiveButton("OK",
 						new DialogInterface.OnClickListener() {
 							public void onClick(DialogInterface dialog, int id) {
@@ -182,7 +182,7 @@ public class Weightpge extends Activity {
 				data = Double.parseDouble(weight.getText().toString())*6.8;
 				AlertDialog.Builder popup = new AlertDialog.Builder(context);
 				popup.setTitle("Your Weight");
-				popup.setMessage("In the Sun your weight = " + data + "Kg");
+				popup.setMessage("In the Jupitor your weight = " + data + "Kg");
 				popup.setCancelable(false).setPositiveButton("OK",
 						new DialogInterface.OnClickListener() {
 							public void onClick(DialogInterface dialog, int id) {
@@ -206,7 +206,7 @@ public class Weightpge extends Activity {
 				data = Double.parseDouble(weight.getText().toString())*4.65;
 				AlertDialog.Builder popup = new AlertDialog.Builder(context);
 				popup.setTitle("Your Weight");
-				popup.setMessage("In the Sun your weight = " + data + "Kg");
+				popup.setMessage("In the Saturn your weight = " + data + "Kg");
 				popup.setCancelable(false).setPositiveButton("OK",
 						new DialogInterface.OnClickListener() {
 							public void onClick(DialogInterface dialog, int id) {
@@ -230,7 +230,7 @@ public class Weightpge extends Activity {
 				data = Double.parseDouble(weight.getText().toString())*2.3;
 				AlertDialog.Builder popup = new AlertDialog.Builder(context);
 				popup.setTitle("Your Weight");
-				popup.setMessage("In the Sun your weight = " + data + "Kg");
+				popup.setMessage("In the Uranus your weight = " + data + "Kg");
 				popup.setCancelable(false).setPositiveButton("OK",
 						new DialogInterface.OnClickListener() {
 							public void onClick(DialogInterface dialog, int id) {
@@ -254,7 +254,7 @@ public class Weightpge extends Activity {
 				data = Double.parseDouble(weight.getText().toString())*2.65;
 				AlertDialog.Builder popup = new AlertDialog.Builder(context);
 				popup.setTitle("Your Weight");
-				popup.setMessage("In the Sun your weight = " + data + "Kg");
+				popup.setMessage("In the Neptune your weight = " + data + "Kg");
 				popup.setCancelable(false).setPositiveButton("OK",
 						new DialogInterface.OnClickListener() {
 							public void onClick(DialogInterface dialog, int id) {

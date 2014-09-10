@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class Homepge extends Activity{
 
-	Button weight, details;
+	Button weight, time;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
@@ -17,7 +17,7 @@ public class Homepge extends Activity{
 		setContentView(R.layout.homepge);
 		
 		weight = (Button)findViewById(R.id.btnweight);
-		details = (Button)findViewById(R.id.btndetails);
+		time = (Button)findViewById(R.id.btntime);
 		
 		weight.setOnClickListener(new OnClickListener() {
 			
@@ -29,12 +29,12 @@ public class Homepge extends Activity{
 			}
 		});
 		
-		details.setOnClickListener(new OnClickListener() {
+		time.setOnClickListener(new OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Intent openStrtngPoint = new Intent("android.intent.action.DETAILS");
+				Intent openStrtngPoint = new Intent("android.intent.action.TIMEPGE");
 				startActivity(openStrtngPoint);
 			}
 		});
