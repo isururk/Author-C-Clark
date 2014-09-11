@@ -35,6 +35,7 @@ public final class R {
         public static final int sun=0x7f02000a;
         public static final int uranus=0x7f02000b;
         public static final int veenus=0x7f02000c;
+        public static final int weightbtn=0x7f02000d;
     }
     public static final class id {
         public static final int Planet=0x7f080007;

@@ -9,16 +9,22 @@
         android:id="@+id/btnweight"
         android:layout_width="275dp"
         android:layout_height="wrap_content"
+		android:textColor="#020212"
+		android:textSize="32sp" 
         android:layout_marginLeft="20dp"
         android:layout_marginTop="140dp"
-        android:text="Weight" />
+        android:text="Weight"
+		android:background="@drawable/weightbtn" />
 
     <Button
         android:id="@+id/btntime"
         android:layout_width="275dp"
         android:layout_height="wrap_content"
+		android:textColor="#020212"
+		android:textSize="32sp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
-        android:text="Time" />
+        android:text="Time"
+		android:background="@drawable/weightbtn"/>
 
 </LinearLayout>
